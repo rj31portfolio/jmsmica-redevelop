@@ -1,4 +1,5 @@
 <?php
+
 // Page-specific SEO: edit these values for this page.
 $pageTitle = 'Ruby Mica | JMSMICA';
 $metaDescription = 'Explore Ruby Mica from JMSMICA Enterprises. Learn about product properties, industrial applications and quality mineral supply.';
@@ -13,6 +14,7 @@ require __DIR__ . '/include/header.php';
         <h1>Ruby Mica</h1>
     </div>
 </section>
+
 <section>
     <div class="sidebar-page-container">
     	<div class="auto-container">

@@ -4,7 +4,8 @@ $pageTitle = 'JMSMICA | Industrial Minerals';
 $metaDescription = 'Explore industrial minerals from JMSMICA Enterprises, including mica, feldspar, silica flour, talc, bentonite, kaolin and quartz.';
 $metaKeywords = 'Welcome To JMSMICA, JMSMICA Enterprises, industrial minerals';
 require __DIR__ . '/include/header.php';
-?><div id='myCarousel' class='carousel slide' data-ride='carousel'>
+?>
+<div id='myCarousel' class='carousel slide' data-ride='carousel'>
     <ol class='carousel-indicators'>
         <li data-target='#myCarousel' data-slide-to='0' class='active'></li>
         <li data-target='#myCarousel' data-slide-to='1'></li>
@@ -13,7 +14,7 @@ require __DIR__ . '/include/header.php';
     </ol>
     <div class='carousel-inner'>
         <div class='item active'>
-            <img src='images/upload/gallery/banner/1696928871.jpg' class='img-fluid'>
+            <img src='images/home-banner-1.png' class='img-fluid'>
         </div>
         <div class='item'>
             <img src='images/upload/gallery/banner/1696928877.jpg' class='img-fluid'>
