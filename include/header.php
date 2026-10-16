@@ -97,7 +97,7 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
          <li class='dropdown'><a href='#'>Industrial Minerals Products</a>
              <ul>
                  <li><a href='potassium-feldspar-powder.php'>Potassium Feldspar Powder</a></li>
-                 <li class='dropdown'><a href='#'>Mica</a>
+                 <li class='dropdown'><a href='mica.php'>Mica</a>
                      <ul>
                          <li><a href='mica-fine.php'>Mica fine</a></li>
                          <li><a href='mica-coarse.php'>Mica Coarse</a></li>
@@ -110,7 +110,7 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
                  <li><a href='talc-powder.php'>Talc Powder</a></li>
                  <li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li>
                  <li><a href='dolomite-powder.php'>Dolomite Powder</a></li>
-                 <li class='dropdown'><a href='#'>Bentonite Powder</a>
+                 <li class='dropdown'><a href='bentonite-powder.php'>Bentonite Powder</a>
                      <ul>
                          <li><a href='ocma-grade.php'>OCMA Grade</a></li>
                          <li><a href='api-grade.php'>API Grade</a></li>
@@ -130,8 +130,7 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
                             </nav>
 
                             <div class="outer-box">
-                                <a href="contact-us.php" class="theme-btn quote-btn" data-toggle="modal"
-                                    data-target="#schedule-box">Send Inquiry</a>
+                                <a href="contact-us.php" class="theme-btn quote-btn">Send Inquiry</a>
 
                             </div>
 

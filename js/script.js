@@ -59,7 +59,7 @@
 		});
 		
 		//Disable dropdown parent link
-		$('.main-header .main-menu .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
+		$('.main-header .main-menu .navigation li.dropdown > a[href="#"],.hidden-bar .side-menu li.dropdown > a[href="#"]').on('click', function(e) {
 			e.preventDefault();
 		});
 	}
