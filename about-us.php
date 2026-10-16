@@ -132,8 +132,6 @@ require __DIR__ . '/include/header.php';
                                 <li>All team members are functional heavily with a quality inspired approach to come
                                     with only the best results in tasks. </li>
                             </ul>
-
-
                         </div>
                     </div>
                 </div>
