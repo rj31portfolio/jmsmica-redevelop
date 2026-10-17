@@ -1,14 +1,13 @@
 
  *Daily Website Development Report*
-*Date:* 16/10/2026
+*Date:* 17/10/2026
 *Name:* Raju Ali
 *Project Name:* jmsmica
 *Today’s Work Completed:*-
-bigrock server suspention activate 
-vcards live and make
-changes in wild roar safari website and live 
-jms website working on pages home about and contact   
-*Website Live Link* https://viraladsmedia.in/index.php
+make vcard 
+make new ad page blog cirificate , clients page 
+now working on products   
+*Website Live Link* https://viraladsmedia.in
 *Issues / Challenges:*- Na
 *Feedback Call Update:*-0
 
