@@ -38,7 +38,6 @@ require __DIR__ . '/include/header.php';
                     <div class="col-lg-4 col-12 col-sm-5 col-md-4">
                         <img src="images/about.jpg">
                     </div>
-
                 </div>
             </div>
         </section>
@@ -95,8 +94,6 @@ require __DIR__ . '/include/header.php';
                             </div>
                         </div>
                     </div>
-                    
-                  
                 </div>
             </div>
         </div>
