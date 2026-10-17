@@ -12323,9 +12323,6 @@ width: 50%;
 	font-size: 15px;
 
 }
-
-
-
 .client2 li:before {
     position: absolute;
     content: "\f12a";
