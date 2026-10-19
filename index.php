@@ -378,6 +378,7 @@ require __DIR__ . '/include/header.php';
                                 of Potassium and Sodium Feldspar Powder</a></h2>
                         <div class='text'>Potassium Feldspar Powder is a valuable industrial mineral with numerous
                             applications. In this blog post, we delve into the diverse uses of this mineral and how
+              
                             JMSMICA Enterprises ensures top-notch quality.</div>
                         <a class='read-more' href='unlocking-the-potential-of-potassium-feldspar-powder.php'>Read More
                             <span class='icon flaticon-arrow-pointing-to-right'></span></a>

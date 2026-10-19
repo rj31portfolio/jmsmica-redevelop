@@ -32,7 +32,6 @@ require __DIR__ . '/include/header.php';
                     <li>Wudao international Co Ltd China</li>
                     <li>Startdust Israel</li>
                 </ul>
-
             </div>
             <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <aside class="sidebar market-sidebar">
@@ -74,9 +73,7 @@ require __DIR__ . '/include/header.php';
                             onkeypress="return (event.charCode > 64 &&  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
                             required=""></textarea>
                         <button type="submit" name="btn_enq">Submit</button>
-
                     </form>
-
                 </aside>
             </div>
         </div>
