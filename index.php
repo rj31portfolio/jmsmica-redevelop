@@ -14,16 +14,16 @@ require __DIR__ . '/include/header.php';
     </ol>
     <div class='carousel-inner'>
         <div class='item active'>
-            <img src='images/home-banner-1.png' class='img-fluid'>
+            <img src='images/banner/banner-1.png' class='img-fluid'>
         </div>
         <div class='item'>
-            <img src='images/upload/gallery/banner/1696928877.jpg' class='img-fluid'>
+            <img src='images/banner/banner-2.png' class='img-fluid'>
         </div>
         <div class='item'>
-            <img src='images/upload/gallery/banner/1734677856.jpg' class='img-fluid'>
+            <img src='images/banner/banner-3.png' class='img-fluid'>
         </div>
         <div class='item'>
-            <img src='images/upload/gallery/banner/1734678002.jpg' class='img-fluid'>
+            <img src='images/banner/banner-4.png' class='img-fluid'>
         </div>
     </div>
 
