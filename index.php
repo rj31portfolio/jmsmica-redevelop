@@ -303,7 +303,6 @@ require __DIR__ . '/include/header.php';
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
