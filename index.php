@@ -36,6 +36,16 @@ require __DIR__ . '/include/header.php';
         <span class='sr-only'>Next</span>
     </a>
 </div>
+<section class="company-highlights" aria-label="About our mineral supply">
+    <div class="container">
+        <div class="highlight-grid">
+            <div class="highlight-item"><span class="fa fa-building-o" aria-hidden="true"></span><div><strong>Established in 2010</strong><small>Experience in industrial minerals</small></div></div>
+            <div class="highlight-item"><span class="fa fa-diamond" aria-hidden="true"></span><div><strong>Quality focused</strong><small>Carefully selected mineral products</small></div></div>
+            <div class="highlight-item"><span class="fa fa-cubes" aria-hidden="true"></span><div><strong>Bulk mineral supply</strong><small>For your industrial requirements</small></div></div>
+            <a class="highlight-item highlight-contact" href="contact-us.php"><span class="fa fa-comments-o" aria-hidden="true"></span><div><strong>Let’s talk minerals</strong><small>Discuss your requirements <span aria-hidden="true">&rarr;</span></small></div></a>
+        </div>
+    </div>
+</section>
 <section class="about1">
     <div class="container">
         <div class="row">
@@ -58,8 +68,8 @@ require __DIR__ . '/include/header.php';
                 </div>
             </div>
 
-            <div class="col-lg-4 col-12 col-sm-5 col-md-4">
-                <img src="images/about.jpg">
+            <div class="col-lg-4 col-12 col-sm-5 col-md-4 about-visual">
+                <div class="about-photo"><img src="images/about.jpg" alt="The JMSMICA team working together"><div class="experience-badge"><strong>Since 2010</strong><span>Built on experience</span></div></div>
             </div>
         </div>
     </div>
@@ -127,7 +137,7 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <h2>Featured Products</h2>
+                <div class="section-heading"><span class="section-eyebrow">Our mineral range</span><h2>Featured Products</h2><p>Explore essential minerals for your industrial applications.</p></div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
@@ -216,7 +226,7 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <h2>Most Popular Products</h2>
+                <div class="section-heading"><span class="section-eyebrow">Explore more</span><h2>Most Popular Products</h2><p>Find the right mineral for your next requirement.</p></div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
@@ -345,7 +355,7 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <h2 class='blog2'>Our Latest Blogs</h2>
+                <div class="section-heading"><span class="section-eyebrow">Mineral insights</span><h2 class='blog2'>Our Latest Blogs</h2><p>Discover the properties, uses, and possibilities of industrial minerals.</p></div>
             </div>
             <div class='col-lg-4 col-sm-6 col-md-4'>
                 <div class='news-block'>

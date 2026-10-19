@@ -1,5 +1,14 @@
+<section class="enquiry-banner" aria-label="Discuss your mineral requirements">
+    <div class="auto-container">
+        <div class="enquiry-banner-inner">
+            <div><span class="section-eyebrow">Let’s work together</span><h2>Looking for the right industrial mineral?</h2><p>Talk to JMSMICA about your product and bulk supply requirements.</p></div>
+            <a href="contact-us.php" class="enquiry-banner-button">Discuss Your Requirement <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
+        </div>
+    </div>
+</section>
 <footer class="main-footer">
         <div class="auto-container">
+            <div class="footer-brand-row"><a href="index.php" aria-label="JMSMICA home"><img src="images/site-logo.png" alt="JMSMICA Enterprises" width="165" height="64"></a><p>Industrial minerals. Quality at every step.</p><a class="footer-phone" href="tel:+918595629100"><span class="fa fa-phone" aria-hidden="true"></span> +91-8595629100</a></div>
             <div class="widgets-section">
                 <div class="row clearfix">
                     <div class="column col-md-3 col-sm-6 col-xs-12">
