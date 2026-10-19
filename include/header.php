@@ -9,11 +9,10 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
     <meta name="description" content="<?= htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8') ?>">
     <meta name="keywords" content="<?= htmlspecialchars($metaKeywords, ENT_QUOTES, 'UTF-8') ?>">
@@ -44,20 +43,28 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
 
                         <div class="top-left">
                             <ul class="links clearfix">
-                                <li><a href="#"><span class="icon flaticon-placeholder-2"></span>295, 1st Floor, B-1, Pocket 1, Sector 17, Rohini, Delhi, 110089</a></li>
-                                <li><a href="tel:+91-8595629100"><span class="icon fa fa-phone"></span> +91-8595629100</a>
+                                <li><a href="#"><span class="icon flaticon-placeholder-2"></span>295, 1st Floor, B-1,
+                                        Pocket 1, Sector 17, Rohini, Delhi, 110089</a></li>
+                                <li><a href="tel:+91-8595629100"><span class="icon fa fa-phone"></span>
+                                        +91-8595629100</a>
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="top-right"> 
+                        <div class="top-right">
                             <ul class="social-icon-one">
-                                <li><a href="https://www.facebook.com/jmsmicaenterprises" target="_blank"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="https://in.pinterest.com/jmsmicaindia/" target="_blank"><span class="fa fa-pinterest"></span></a></li>
-                                <li><a href="https://twitter.com/jmsmicaindia" target="_blank"><span class="fa fa-twitter"></span></a></li>
-                                <li><a href="https://www.instagram.com/jmsmicaenterprises/" target="_blank"><span class="fa fa-instagram"></span></a></li>
-                                <li><a href="https://www.linkedin.com/in/jmsmicaenterprises/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
-                                <li><a href="https://www.youtube.com/@JMSMICA" target="_blank"><span class="fa fa-youtube"></span></a></li>
+                                <li><a href="https://www.facebook.com/jmsmicaenterprises" target="_blank"><span
+                                            class="fa fa-facebook"></span></a></li>
+                                <li><a href="https://in.pinterest.com/jmsmicaindia/" target="_blank"><span
+                                            class="fa fa-pinterest"></span></a></li>
+                                <li><a href="https://twitter.com/jmsmicaindia" target="_blank"><span
+                                            class="fa fa-twitter"></span></a></li>
+                                <li><a href="https://www.instagram.com/jmsmicaenterprises/" target="_blank"><span
+                                            class="fa fa-instagram"></span></a></li>
+                                <li><a href="https://www.linkedin.com/in/jmsmicaenterprises/" target="_blank"><span
+                                            class="fa fa-linkedin"></span></a></li>
+                                <li><a href="https://www.youtube.com/@JMSMICA" target="_blank"><span
+                                            class="fa fa-youtube"></span></a></li>
                             </ul>
                         </div>
 
@@ -71,18 +78,18 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
                     <div class="outer-container clearfix">
 
                         <div class="logo-box">
-                            <div class="logo"><a href="index.php"><img src="images/site-logo.png" alt="JMSMICA Enterprises"></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/site-logo.png"
+                                        alt="JMSMICA Enterprises"></a></div>
                         </div>
 
-
                         <div class="nav-outer clearfix">
-
 
                             <nav class="main-menu" aria-label="Main navigation">
                                 <div class="navbar-header">
 
                                     <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                        data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                                        data-target="#main-navigation" aria-controls="main-navigation"
+                                        aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
@@ -90,42 +97,43 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
                                 </div>
 
                                 <div class="navbar-collapse collapse clearfix" id="main-navigation">
-     <ul class="navigation clearfix">
-         <li><a href='index.php'>Home</a></li>
-         <li><a href='about-us.php'>About Us</a></li>
-         <li class='dropdown'><a href='#'>Industrial Minerals Products</a>
-             <ul>
-                 <li><a href='potassium-feldspar-powder.php'>Potassium Feldspar Powder</a></li>
-                 <li class='dropdown'><a href='mica.php'>Mica</a>
-                     <ul>
-                         <li><a href='mica-fine.php'>Mica fine</a></li>
-                         <li><a href='mica-coarse.php'>Mica Coarse</a></li>
-                         <li><a href='ruby-mica.php'>Ruby Mica</a></li>
-                         <li><a href='mica-powder.php'>Mica Powder</a></li>
-                     </ul>
-                 </li>
-                 <li><a href='lumps.php'>Lumps</a></li>
-                 <li><a href='silica-flour.php'>Silica Flour</a></li>
-                 <li><a href='talc-powder.php'>Talc Powder</a></li>
-                 <li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li>
-                 <li><a href='dolomite-powder.php'>Dolomite Powder</a></li>
-                 <li class='dropdown'><a href='bentonite-powder.php'>Bentonite Powder</a>
-                     <ul>
-                         <li><a href='ocma-grade.php'>OCMA Grade</a></li>
-                         <li><a href='api-grade.php'>API Grade</a></li>
-                     </ul>
-                 </li>
-                 <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
-                 <li><a href='quartz-silica.php'>Quartz Silica</a></li>
-             </ul>
-         </li>
-         <li><a href='photo-gallery.php'>Photo Gallery</a></li>
-         <li><a href='our-clients.php'>Major Clients</a></li>
-         <li><a href='our-certificates.php'>Our Certificates</a></li>
-         <li><a href='blogs.php'>Our Blogs</a></li>
-         <li><a href='contact-us.php'>Contact Us</a></li>
-     </ul>
- </div>
+                                    <ul class="navigation clearfix">
+                                        <li><a href='index.php'>Home</a></li>
+                                        <li><a href='about-us.php'>About Us</a></li>
+                                        <li class='dropdown'><a href='#'>Industrial Minerals Products</a>
+                                            <ul>
+                                                <li><a href='potassium-feldspar-powder.php'>Potassium Feldspar
+                                                        Powder</a></li>
+                                                <li class='dropdown'><a href='mica.php'>Mica</a>
+                                                    <ul>
+                                                        <li><a href='mica-fine.php'>Mica fine</a></li>
+                                                        <li><a href='mica-coarse.php'>Mica Coarse</a></li>
+                                                        <li><a href='ruby-mica.php'>Ruby Mica</a></li>
+                                                        <li><a href='mica-powder.php'>Mica Powder</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href='lumps.php'>Lumps</a></li>
+                                                <li><a href='silica-flour.php'>Silica Flour</a></li>
+                                                <li><a href='talc-powder.php'>Talc Powder</a></li>
+                                                <li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li>
+                                                <li><a href='dolomite-powder.php'>Dolomite Powder</a></li>
+                                                <li class='dropdown'><a href='bentonite-powder.php'>Bentonite Powder</a>
+                                                    <ul>
+                                                        <li><a href='ocma-grade.php'>OCMA Grade</a></li>
+                                                        <li><a href='api-grade.php'>API Grade</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
+                                                <li><a href='quartz-silica.php'>Quartz Silica</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href='photo-gallery.php'>Photo Gallery</a></li>
+                                        <li><a href='our-clients.php'>Major Clients</a></li>
+                                        <li><a href='our-certificates.php'>Our Certificates</a></li>
+                                        <li><a href='blogs.php'>Our Blogs</a></li>
+                                        <li><a href='contact-us.php'>Contact Us</a></li>
+                                    </ul>
+                                </div>
                             </nav>
 
                             <div class="outer-box">
@@ -144,14 +152,16 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
 
                     <div class="outer-container clearfix">
                         <div class="logo-box pull-left">
-                            <div class="logo logo11"><a href="index.php"><img src="images/site-logo.png" alt="JMSMICA Enterprises"></a></div>
+                            <div class="logo logo11"><a href="index.php"><img src="images/site-logo.png"
+                                        alt="JMSMICA Enterprises"></a></div>
                         </div>
 
                         <div class="nav-outer clearfix">
                             <nav class="main-menu" aria-label="Sticky navigation">
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                        data-target="#sticky-navigation" aria-controls="sticky-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                                        data-target="#sticky-navigation" aria-controls="sticky-navigation"
+                                        aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
@@ -160,9 +170,29 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
 
                                 <div class="navbar-collapse collapse clearfix" id="sticky-navigation">
                                     <ul class="navigation clearfix">
-                                        <li><a href='index.php'>Home</a></li><li><a href='about-us.php'>About Us</a></li><li class='dropdown'><a href='#'>Industrial Minerals Products</a>
-                                                        <ul><li><a href='potassium-feldspar-powder.php'>Potassium Feldspar Powder</a></li><li><a href='mica.php'>Mica</a></li><li><a href='lumps.php'>Lumps</a></li><li><a href='silica-flour.php'>Silica Flour</a></li><li><a href='talc-powder.php'>Talc Powder</a></li><li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li><li><a href='dolomite-powder.php'>Dolomite Powder</a></li><li><a href='bentonite-powder.php'>Bentonite Powder</a></li><li><a href='kaolin-powder.php'>Kaolin Powder</a></li><li><a href='quartz-silica.php'>Quartz Silica</a></li></ul>
-                                                    </li><li><a href='photo-gallery.php'>Photo Gallery</a></li><li><a href='our-clients.php'>Major Clients</a></li><li><a href='our-certificates.php'>Our Certificates</a></li><li><a href='blogs.php'>Our Blogs</a></li><li><a href='contact-us.php'>Contact Us</a></li>                                    </ul>
+                                        <li><a href='index.php'>Home</a></li>
+                                        <li><a href='about-us.php'>About Us</a></li>
+                                        <li class='dropdown'><a href='#'>Industrial Minerals Products</a>
+                                            <ul>
+                                                <li><a href='potassium-feldspar-powder.php'>Potassium Feldspar
+                                                        Powder</a></li>
+                                                <li><a href='mica.php'>Mica</a></li>
+                                                <li><a href='lumps.php'>Lumps</a></li>
+                                                <li><a href='silica-flour.php'>Silica Flour</a></li>
+                                                <li><a href='talc-powder.php'>Talc Powder</a></li>
+                                                <li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li>
+                                                <li><a href='dolomite-powder.php'>Dolomite Powder</a></li>
+                                                <li><a href='bentonite-powder.php'>Bentonite Powder</a></li>
+                                                <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
+                                                <li><a href='quartz-silica.php'>Quartz Silica</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href='photo-gallery.php'>Photo Gallery</a></li>
+                                        <li><a href='our-clients.php'>Major Clients</a></li>
+                                        <li><a href='our-certificates.php'>Our Certificates</a></li>
+                                        <li><a href='blogs.php'>Our Blogs</a></li>
+                                        <li><a href='contact-us.php'>Contact Us</a></li>
+                                    </ul>
                                 </div>
                             </nav>
 

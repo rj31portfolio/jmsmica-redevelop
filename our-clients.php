@@ -35,7 +35,6 @@ require __DIR__ . '/include/header.php';
             </div>
             <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <aside class="sidebar market-sidebar">
-
                     <div class="sidebar-title">
                         <h2>Industrial Minerals Products</h2>
                     </div>
@@ -52,14 +51,11 @@ require __DIR__ . '/include/header.php';
                             <li><a href='bentonite-powder.php'>Bentonite Powder</a></li>
                             <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
                             <li><a href='quartz-silica.php'>Quartz Silica</a></li>
-
                         </ul>
                     </div>
-
                     <div class="sidebar-title">
                         <h2>Enquiry Now</h2>
                     </div>
-
                     <form class="form2" action="https://www.jmsmica.com/mail.php">
                         <input type="text" name="name" placeholder="Enter Name" title="Accept Only Name and Space"
                             pattern="[A-Za-z0-9_ ]{1,150}"
