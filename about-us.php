@@ -213,15 +213,9 @@ Philippines, Pitcairn Island, Poland, Portugal, Qatar, Reunion, Russia, San Mari
       <th scope="row">Banker</th>
       <td colspan="2">HDFC</td>
     </tr>
-
-
-
   </tbody>
 </table>
         </div>
     </div>
 </section>
-
-
-
-    <?php require __DIR__ . '/include/footer.php'; ?>
+<?php require __DIR__ . '/include/footer.php'; ?>
