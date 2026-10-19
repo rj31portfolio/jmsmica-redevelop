@@ -7,7 +7,7 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 
 
@@ -24,10 +24,11 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
     <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/design-refresh.css?v=1">
     <link rel="shortcut icon" href="index.php" type="image/x-icon">
     <link rel="icon" href="index.php" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -58,8 +59,6 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
                                 <li><a href="https://www.linkedin.com/in/jmsmicaenterprises/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
                                 <li><a href="https://www.youtube.com/@JMSMICA" target="_blank"><span class="fa fa-youtube"></span></a></li>
                             </ul>
-                            </li>
-                            </ul>
                         </div>
 
                     </div>
@@ -72,25 +71,25 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
                     <div class="outer-container clearfix">
 
                         <div class="logo-box">
-                            <div class="logo"><a href="index.php"><img src="images/site-logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/site-logo.png" alt="JMSMICA Enterprises"></a></div>
                         </div>
 
 
                         <div class="nav-outer clearfix">
 
 
-                            <nav class="main-menu">
+                            <nav class="main-menu" aria-label="Main navigation">
                                 <div class="navbar-header">
 
                                     <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                        data-target=".navbar-collapse">
+                                        data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
                                 </div>
 
-                                <div class="navbar-collapse collapse clearfix">
+                                <div class="navbar-collapse collapse clearfix" id="main-navigation">
      <ul class="navigation clearfix">
          <li><a href='index.php'>Home</a></li>
          <li><a href='about-us.php'>About Us</a></li>
@@ -145,21 +144,21 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
 
                     <div class="outer-container clearfix">
                         <div class="logo-box pull-left">
-                            <div class="logo logo11"><a href="index.php"><img src="images/site-logo.png" alt=""></a></div>
+                            <div class="logo logo11"><a href="index.php"><img src="images/site-logo.png" alt="JMSMICA Enterprises"></a></div>
                         </div>
 
                         <div class="nav-outer clearfix">
-                            <nav class="main-menu">
+                            <nav class="main-menu" aria-label="Sticky navigation">
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                        data-target=".navbar-collapse">
+                                        data-target="#sticky-navigation" aria-controls="sticky-navigation" aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
                                 </div>
 
-                                <div class="navbar-collapse collapse clearfix">
+                                <div class="navbar-collapse collapse clearfix" id="sticky-navigation">
                                     <ul class="navigation clearfix">
                                         <li><a href='index.php'>Home</a></li><li><a href='about-us.php'>About Us</a></li><li class='dropdown'><a href='#'>Industrial Minerals Products</a>
                                                         <ul><li><a href='potassium-feldspar-powder.php'>Potassium Feldspar Powder</a></li><li><a href='mica.php'>Mica</a></li><li><a href='lumps.php'>Lumps</a></li><li><a href='silica-flour.php'>Silica Flour</a></li><li><a href='talc-powder.php'>Talc Powder</a></li><li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li><li><a href='dolomite-powder.php'>Dolomite Powder</a></li><li><a href='bentonite-powder.php'>Bentonite Powder</a></li><li><a href='kaolin-powder.php'>Kaolin Powder</a></li><li><a href='quartz-silica.php'>Quartz Silica</a></li></ul>

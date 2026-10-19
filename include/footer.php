@@ -66,7 +66,7 @@
                             </div>
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27995.318831477845!2d77.23488378424425!3d28.7071455809095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdd620dac251%3A0x367da59a3701b399!2sJMSMICA!5e0!3m2!1sen!2sin!4v1695981349363!5m2!1sen!2sin"
-                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                title="JMSMICA office location" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
@@ -86,14 +86,14 @@
 
     </div>
 
-    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span>
-    </div>
+    <button type="button" class="scroll-to-top scroll-to-target" data-target="html" aria-label="Back to top"><span class="icon fa fa-angle-double-up" aria-hidden="true"></span>
+    </button>
 
-    <a href="tel:08595629100" class="whatsappWidget3 phone-btn2" target="_blank">
-        <img src="images/call-icon.png" class="img-responsive">
+    <a href="tel:08595629100" class="whatsappWidget3 phone-btn2" aria-label="Call JMSMICA">
+        <img src="images/call-icon.png" class="img-responsive" alt="">
     </a>
-    <a href="https://api.whatsapp.com/send?phone=918595629100&amp;text=" class="whatsappWidget phone-btn" target="_blank">
-        <img src="images/whatsapp-icon.png" class="img-responsive">
+    <a href="https://api.whatsapp.com/send?phone=918595629100&amp;text=" class="whatsappWidget phone-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat with JMSMICA on WhatsApp">
+        <img src="images/whatsapp-icon.png" class="img-responsive" alt="">
     </a>
 
     <script src="js/jquery.js"></script>
@@ -119,6 +119,7 @@
     <script src="js/knob.js"></script>
     <script src="js/appear.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/design-refresh.js?v=1"></script>
 </body>
 
 
