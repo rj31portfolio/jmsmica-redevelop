@@ -203,7 +203,6 @@ require __DIR__ . '/include/header.php';
                         <li>All team members are functional heavily with a quality inspired approach to come
                             with only the best results in tasks. </li>
                     </ul>
-
                 </div>
             </div>
             <div class="col-lg-4 col-sm-4 col-md-4 form1">
