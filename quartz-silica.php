@@ -102,10 +102,8 @@ require __DIR__ . '/include/header.php';
                             <button type="submit" name="btn_enq">Submit</button>
 
                         </form>
-
                     </aside>
                 </div>
-
             </div>
         </div>
     </div>
