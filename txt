@@ -1,12 +1,14 @@
 
  *Daily Website Development Report*
-*Date:* 17/10/2026
+*Date:* 21/10/2026
 *Name:* Raju Ali
 *Project Name:* jmsmica
 *Today’s Work Completed:*-
-make vcard 
-make new ad page blog cirificate , clients page 
-now working on products   
+work on jmsmic website make ad products 
+page 9 new ad and live it for testing 
+make change in plastosonic website 
+all pages change 
+working on wild roar safari changes 
 *Website Live Link* https://viraladsmedia.in
 *Issues / Challenges:*- Na
 *Feedback Call Update:*-0
