@@ -4,7 +4,8 @@ $pageTitle = 'Potassium Feldspar Powder | JMSMICA';
 $metaDescription = 'Explore Potassium Feldspar Powder from JMSMICA Enterprises. Learn about product properties, industrial applications and quality mineral supply.';
 $metaKeywords = 'Potassium Feldspar Powder, JMSMICA Enterprises, industrial minerals';
 require __DIR__ . '/include/header.php';
-?><section class="page-title" style="background-image:url(images/product-slider.jpg)">
+?>
+<section class="page-title" style="background-image:url(images/product-slider.jpg)">
     <div class="auto-container">
         <ul class="page-breadcrumb">
             <li><a href="index.php">Home</a></li>
@@ -164,7 +165,6 @@ require __DIR__ . '/include/header.php';
                                 <li><a href='bentonite-powder.php'>Bentonite Powder</a></li>
                                 <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
                                 <li><a href='quartz-silica.php'>Quartz Silica</a></li>
-
                             </ul>
                         </div>
 

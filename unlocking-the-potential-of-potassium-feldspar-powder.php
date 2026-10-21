@@ -74,7 +74,6 @@ require __DIR__ . '/include/header.php';
                                 <li><a href='bentonite-powder.php'>Bentonite Powder</a></li>
                                 <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
                                 <li><a href='quartz-silica.php'>Quartz Silica</a></li>
-
                             </ul>
                         </div>
 
