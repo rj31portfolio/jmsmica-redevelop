@@ -4,7 +4,8 @@ $pageTitle = 'Photo Gallery | JMSMICA';
 $metaDescription = 'Browse the JMSMICA Enterprises photo gallery for a closer look at our industrial minerals and operations.';
 $metaKeywords = 'Photo Gallery, JMSMICA Enterprises, industrial minerals';
 require __DIR__ . '/include/header.php';
-?><section class="page-title" style="background-image:url(images/blog1.jpg)">
+?>
+<section class="page-title" style="background-image:url(images/blog1.jpg)">
     <div class="auto-container">
         <ul class="page-breadcrumb">
             <li><a href="index.php">Home</a></li>
