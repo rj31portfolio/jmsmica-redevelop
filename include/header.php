@@ -65,7 +65,6 @@ function googleTranslateElementInit() {
                                 </li>
                             </ul>
                         </div>
-
                         <div class="top-right">
                             <ul class="social-icon-one">
                                 <li><a href="https://www.facebook.com/jmsmicaenterprises" target="_blank"><span
@@ -82,12 +81,9 @@ function googleTranslateElementInit() {
                                             class="fa fa-youtube"></span></a></li>
                             </ul>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
             <div class="main-box">
                 <div class="auto-container">
                     <div class="outer-container clearfix">
