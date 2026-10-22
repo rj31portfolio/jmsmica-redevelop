@@ -177,7 +177,6 @@ require __DIR__ . '/include/header.php';
                                 <li><a href='bentonite-powder-manufacture-in-india.php'>Bentonite Powder</a></li>
                                 <li><a href='kaolin-powder-manufacture-in-india.php'>Kaolin Powder</a></li>
                                 <li><a href='quartz-silica-manufacture-in-india.php'>Quartz Silica</a></li>
-
                             </ul>
                         </div>
 
