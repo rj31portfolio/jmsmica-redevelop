@@ -13,7 +13,10 @@ require __DIR__ . '/include/header.php';
         <li data-target='#myCarousel' data-slide-to='3'></li>
     </ol>
 <div class='carousel-inner'>
-        <div class='item active'>
+     <div class='item active'>
+            <img src='images/banner/bannerglobal.jpeg' class='img-fluid'>
+        </div>
+        <div class='item'>
             <img src='images/banner/banner-1.png' class='img-fluid'>
         </div>
         <div class='item'>

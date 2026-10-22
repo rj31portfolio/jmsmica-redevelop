@@ -46,7 +46,6 @@ require __DIR__ . '/include/header.php';
 
         </div>
     </div>
-
 </section>
 
 <section class="contact1">

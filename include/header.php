@@ -24,11 +24,27 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
     <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/design-refresh.css?v=3">
+    <link rel="stylesheet" href="css/design-refresh.css?v=4">
     <link rel="shortcut icon" href="index.php" type="image/x-icon">
     <link rel="icon" href="index.php" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Translate Language Selector -->
+<div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,pa,bn,gu,mr,ta,te,ur',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+    }, 'google_translate_element');
+}
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </head>
 
@@ -191,7 +207,7 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
                                         <li><a href='photo-gallery.php'>Photo Gallery</a></li>
                                         <li><a href='our-clients.php'>Major Clients</a></li>
                                         <li><a href='our-certificates.php'>Our Certificates</a></li>
-                                        <li><a href='blogs.php'>Our Blogs</a></li>
+                                        <!-- <li><a href='blogs.php'>Our Blogs</a></li> -->
                                         <li><a href='contact-us.php'>Contact Us</a></li>
                                     </ul>
                                 </div>
