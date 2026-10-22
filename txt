@@ -1,15 +1,17 @@
 
  *Daily Website Development Report*
-*Date:* 21/10/2026
+*Date:* 22/10/2026
 *Name:* Raju Ali
 *Project Name:* jmsmica
 *Today’s Work Completed:*-
-work on jmsmic website make ad products 
-page 9 new ad and live it for testing 
-make change in plastosonic website 
-all pages change 
-working on wild roar safari changes 
-*Website Live Link* https://viraladsmedia.in
+work on jmsmica
+add new images and videos update 
+form make working 
+change page urls 
+add google traslator with international language
+and website Live
+Pressbrakes seo few changes
+*Website Live Link* https://www.jmsmica.com/
 *Issues / Challenges:*- Na
 *Feedback Call Update:*-0
 
