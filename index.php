@@ -206,15 +206,16 @@ require __DIR__ . '/include/header.php';
                 </div>
             </div>
             <div class="col-lg-4 col-sm-4 col-md-4 form1">
-                <form method="POST">
+                <form action="mail.php" method="POST" data-enquiry-form>
                     <h2>Quick Enquiry</h2>
 
-                    <input type="text" placeholder="Enter Name">
-                    <!-- <input type="mail" placeholder="Enter Mail"> -->
-                    <input type="number" placeholder="Enter Number">
-                    <!-- <input type="text" placeholder="Enter Subject"> -->
-                    <textarea placeholder="Your Message" rows="3"></textarea>
+                    <input type="text" placeholder="Enter Name" name="name" required maxlength="150" autocomplete="name">
+
+                    <input type="tel" placeholder="Enter Number" name="phone" required minlength="7" maxlength="25" pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
+
+                    <textarea placeholder="Your Message" rows="3" name="message" required maxlength="5000"></textarea>
                     <button>Submit</button>
+                    <?php require __DIR__ . '/include/enquiry-fields.php'; ?>
                 </form>
             </div>
         </div>

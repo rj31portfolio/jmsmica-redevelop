@@ -128,7 +128,7 @@ body a:focus-visible, body button:focus-visible, body input:focus-visible, body 
 .news-block .inner-box .text { color: var(--jms-muted); font-size: 14px; margin-bottom: 22px; }
 .news-block .inner-box .read-more { margin-top: auto; color: #b71923; font-size: 12px; }
 
-/* Shared enquiry fields, without changing how forms are submitted. */
+/* Shared enquiry fields. */
 .form1 form input, .form1 form textarea, .form2 input, .form2 textarea,
 .contact1 form input, .contact1 form textarea {
     width: 100%; height: auto; min-height: 46px; padding: 11px 13px; margin: 0 0 13px;
@@ -389,3 +389,19 @@ input::placeholder, textarea::placeholder { color: #687486; opacity: 1; }
     *, *:before, *:after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
     .product-item:hover, .gallery-item:hover img { transform: none; }
 }
+
+/* Keep every original photo visible, including portrait facility images. */
+.photo-gallery-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+.photo-gallery-grid .gallery-item { margin: 0; padding: 8px; min-width: 0; }
+.photo-gallery-grid .gallery-item a { position: relative; background: #f1f4f7; }
+.photo-gallery-grid .gallery-item img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; }
+.photo-gallery-grid .gallery-item:hover img { transform: none; }
+.photo-gallery-grid figcaption { padding: 12px 5px 4px; font-size: 13px; line-height: 1.5; color: var(--jms-muted); }
+.gallery-zoom { position: absolute; right: 10px; bottom: 10px; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: var(--jms-navy); color: #fff; }
+.photo-gallery-grid a:focus-visible { outline: 3px solid #3979b9; outline-offset: 3px; }
+[data-enquiry-form] .enquiry-trap { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+[data-enquiry-form] input[type="hidden"] { display: none; }
+[data-enquiry-form] button:disabled { opacity: .65; cursor: wait; }
+@media (max-width: 991px) { .photo-gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; } }
+@media (max-width: 767px) { .photo-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } }
+@media (max-width: 479px) { .photo-gallery-grid { grid-template-columns: minmax(0, 1fr); } }

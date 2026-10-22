@@ -53,7 +53,7 @@ require __DIR__ . '/include/header.php';
     <div class="container">
         <div class="row contact2">
             <div class="col-lg-7 col-12 col-sm-12 col-md-7">
-                <form action="https://www.jmsmica.com/mail.php" method="POST" id="dreamit-form">
+                <form action="mail.php" method="POST" data-enquiry-form id="dreamit-form">
                     <div class="row">
                         <div class="section-title1 ">
                             <h4>CONTACT US</h4>
@@ -61,26 +61,18 @@ require __DIR__ . '/include/header.php';
                         </div>
                         <div class="col-lg-6">
                             <div class="form_box mb-3">
-                                <input class="form-control" type="text" name="name" placeholder="Enter Name"
-                                    title="Accept Only Name and Space" pattern="[A-Za-z0-9_ ]{1,150}"
-                                    onkeypress="return (event.charCode > 64 &&  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
-                                    required="">
+                                <input class="form-control" type="text" name="name" placeholder="Enter Name" required="" maxlength="150" autocomplete="name">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form_box mb-3">
-                                <input class="form-control" type="tel" name="phone" placeholder="Enter Number"
-                                    onkeydown="return ( event.ctrlKey || event.altKey  || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40)  || (event.keyCode==46))"
-                                    pattern="[7896][0-9]{9}" minlength="10" maxlength="10" required="">
+                                <input class="form-control" type="tel" name="phone" placeholder="Enter Number" required="" minlength="7" maxlength="25" pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
                             </div>
                         </div>
 
                         <div class="col-lg-12">
                             <div class="form_box">
-                                <textarea name="message" placeholder="Your Message" rows="3"
-                                    title="Accept Only Name and Space" pattern="[A-Za-z0-9_ ]{1,150}"
-                                    onkeypress="return (event.charCode > 64 &&  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
-                                    required=""></textarea>
+                                <textarea name="message" placeholder="Your Message" rows="3" required="" maxlength="5000"></textarea>
                             </div>
 
                             <div class="quote_btn text_center  btn11">
@@ -89,6 +81,7 @@ require __DIR__ . '/include/header.php';
 
                         </div>
                     </div>
+                    <?php require __DIR__ . '/include/enquiry-fields.php'; ?>
                 </form>
             </div>
 

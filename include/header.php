@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/config.php';
+require_once __DIR__ . '/form-security.php';
 
 if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__DIR__ . '/../index.php')) {
     header('Location: index.php', true, 302);
@@ -23,7 +24,7 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
     <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/design-refresh.css?v=2">
+    <link rel="stylesheet" href="css/design-refresh.css?v=3">
     <link rel="shortcut icon" href="index.php" type="image/x-icon">
     <link rel="icon" href="index.php" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

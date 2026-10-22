@@ -1,0 +1,8 @@
+{
+    "name": "jmsmica/website",
+    "description": "JMSMICA website enquiry forms",
+    "require": {
+        "php": ">=8.1",
+        "phpmailer/phpmailer": "^7.0"
+    }
+}

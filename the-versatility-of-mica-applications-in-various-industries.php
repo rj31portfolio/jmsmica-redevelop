@@ -82,20 +82,13 @@ require __DIR__ . '/include/header.php';
                             <h2>Enquiry Now</h2>
                         </div>
 
-                        <form class="form2" action="https://www.jmsmica.com/mail.php">
-                            <input type="text" name="name" placeholder="Enter Name" title="Accept Only Name and Space"
-                                pattern="[A-Za-z0-9_ ]{1,150}"
-                                onkeypress="return (event.charCode > 64 &&  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
-                                required="">
-                            <input type="tel" name="phone" placeholder="Enter Number"
-                                onkeydown="return ( event.ctrlKey || event.altKey  || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40)  || (event.keyCode==46))"
-                                pattern="[7896][0-9]{9}" minlength="10" maxlength="10" required="">
-                            <textarea name="message" placeholder="Your Message" rows="3"
-                                title="Accept Only Name and Space" pattern="[A-Za-z0-9_ ]{1,150}"
-                                onkeypress="return (event.charCode > 64 &&  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
-                                required=""></textarea>
+                        <form action="mail.php" method="POST" data-enquiry-form class="form2">
+                            <input type="text" name="name" placeholder="Enter Name" required="" maxlength="150" autocomplete="name">
+                            <input type="tel" name="phone" placeholder="Enter Number" required="" minlength="7" maxlength="25" pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
+                            <textarea name="message" placeholder="Your Message" rows="3" required="" maxlength="5000"></textarea>
                             <button type="submit" name="btn_enq">Submit</button>
 
+                            <?php require __DIR__ . '/include/enquiry-fields.php'; ?>
                         </form>
 
                     </aside>
