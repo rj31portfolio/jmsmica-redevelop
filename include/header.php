@@ -30,21 +30,19 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google Translate Language Selector -->
-<div id="google_translate_element"></div>
-
+<!-- Google Translate - International Languages -->
 <script>
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({
         pageLanguage: 'en',
-        includedLanguages: 'en,hi,pa,bn,gu,mr,ta,te,ur',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
         autoDisplay: false
     }, 'google_translate_element');
 }
 </script>
 
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
 
 </head>
 
@@ -53,7 +51,7 @@ function googleTranslateElementInit() {
     <div class="page-wrapper">
 
         <header class="main-header">
-
+<div id="google_translate_element"></div>
             <div class="header-top">
                 <div class="auto-container">
                     <div class="top-outer clearfix">
@@ -119,35 +117,35 @@ function googleTranslateElementInit() {
                                         <li><a href='about-us.php'>About Us</a></li>
                                         <li class='dropdown'><a href='#'>Industrial Minerals Products</a>
                                             <ul>
-                                                <li><a href='potassium-feldspar-powder.php'>Potassium Feldspar
+                                                <li><a href='potassium-feldspar-powder-manufacture-in-india.php'>Potassium Feldspar
                                                         Powder</a></li>
-                                                <li class='dropdown'><a href='mica.php'>Mica</a>
+                                                <li class='dropdown'><a href='mica-manufacture-in-india.php'>Mica</a>
                                                     <ul>
-                                                        <li><a href='mica-fine.php'>Mica fine</a></li>
-                                                        <li><a href='mica-coarse.php'>Mica Coarse</a></li>
-                                                        <li><a href='ruby-mica.php'>Ruby Mica</a></li>
-                                                        <li><a href='mica-powder.php'>Mica Powder</a></li>
+                                                        <li><a href='mica-fine-manufacture-in-india.php'>Mica fine</a></li>
+                                                        <li><a href='mica-coarse-manufacture-in-india.php'>Mica Coarse</a></li>
+                                                        <li><a href='ruby-mica-manufacture-in-india.php'>Ruby Mica</a></li>
+                                                        <li><a href='mica-powder-manufacture-in-india.php'>Mica Powder</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href='lumps.php'>Lumps</a></li>
-                                                <li><a href='silica-flour.php'>Silica Flour</a></li>
-                                                <li><a href='talc-powder.php'>Talc Powder</a></li>
-                                                <li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li>
-                                                <li><a href='dolomite-powder.php'>Dolomite Powder</a></li>
-                                                <li class='dropdown'><a href='bentonite-powder.php'>Bentonite Powder</a>
+                                                <li><a href='lumps-manufacture-in-india.php'>Lumps</a></li>
+                                                <li><a href='silica-flour-manufacture-in-india.php'>Silica Flour</a></li>
+                                                <li><a href='talc-powder-manufacture-in-india.php'>Talc Powder</a></li>
+                                                <li><a href='soap-stone-powder-manufacture-in-india.php'>Soap Stone Powder</a></li>
+                                                <li><a href='dolomite-powder-manufacture-in-india.php'>Dolomite Powder</a></li>
+                                                <li class='dropdown'><a href='bentonite-powder-manufacture-in-india.php'>Bentonite Powder</a>
                                                     <ul>
-                                                        <li><a href='ocma-grade.php'>OCMA Grade</a></li>
-                                                        <li><a href='api-grade.php'>API Grade</a></li>
+                                                        <li><a href='ocma-grade-manufacture-in-india.php'>OCMA Grade</a></li>
+                                                        <li><a href='api-grade-manufacture-in-india.php'>API Grade</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
-                                                <li><a href='quartz-silica.php'>Quartz Silica</a></li>
+                                                <li><a href='kaolin-powder-manufacture-in-india.php'>Kaolin Powder</a></li>
+                                                <li><a href='quartz-silica-manufacture-in-india.php'>Quartz Silica</a></li>
                                             </ul>
                                         </li>
                                         <li><a href='photo-gallery.php'>Photo Gallery</a></li>
                                         <li><a href='our-clients.php'>Major Clients</a></li>
                                         <li><a href='our-certificates.php'>Our Certificates</a></li>
-                                        <li><a href='blogs.php'>Our Blogs</a></li>
+                                        <!-- <li><a href='blogs.php'>Our Blogs</a></li> -->
                                         <li><a href='contact-us.php'>Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -191,17 +189,17 @@ function googleTranslateElementInit() {
                                         <li><a href='about-us.php'>About Us</a></li>
                                         <li class='dropdown'><a href='#'>Industrial Minerals Products</a>
                                             <ul>
-                                                <li><a href='potassium-feldspar-powder.php'>Potassium Feldspar
+                                                <li><a href='potassium-feldspar-powder-manufacture-in-india.php'>Potassium Feldspar
                                                         Powder</a></li>
-                                                <li><a href='mica.php'>Mica</a></li>
-                                                <li><a href='lumps.php'>Lumps</a></li>
-                                                <li><a href='silica-flour.php'>Silica Flour</a></li>
-                                                <li><a href='talc-powder.php'>Talc Powder</a></li>
-                                                <li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li>
-                                                <li><a href='dolomite-powder.php'>Dolomite Powder</a></li>
-                                                <li><a href='bentonite-powder.php'>Bentonite Powder</a></li>
-                                                <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
-                                                <li><a href='quartz-silica.php'>Quartz Silica</a></li>
+                                                <li><a href='mica-manufacture-in-india.php'>Mica</a></li>
+                                                <li><a href='lumps-manufacture-in-india.php'>Lumps</a></li>
+                                                <li><a href='silica-flour-manufacture-in-india.php'>Silica Flour</a></li>
+                                                <li><a href='talc-powder-manufacture-in-india.php'>Talc Powder</a></li>
+                                                <li><a href='soap-stone-powder-manufacture-in-india.php'>Soap Stone Powder</a></li>
+                                                <li><a href='dolomite-powder-manufacture-in-india.php'>Dolomite Powder</a></li>
+                                                <li><a href='bentonite-powder-manufacture-in-india.php'>Bentonite Powder</a></li>
+                                                <li><a href='kaolin-powder-manufacture-in-india.php'>Kaolin Powder</a></li>
+                                                <li><a href='quartz-silica-manufacture-in-india.php'>Quartz Silica</a></li>
                                             </ul>
                                         </li>
                                         <li><a href='photo-gallery.php'>Photo Gallery</a></li>

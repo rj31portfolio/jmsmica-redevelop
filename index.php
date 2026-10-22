@@ -145,40 +145,40 @@ require __DIR__ . '/include/header.php';
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696831898.jpg'>
-                    <h3><a href='potassium-feldspar-powder.php'>Potassium Feldspar Powder</a></h3>
+                    <h3><a href='potassium-feldspar-powder-manufacture-in-india.php'>Potassium Feldspar Powder</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='potassium-feldspar-powder.php' class='view1'>View Details</a>
+                        <a href='potassium-feldspar-powder-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696840865.jpg'>
-                    <h3><a href='mica.php'>Mica</a></h3>
+                    <h3><a href='mica-manufacture-in-india.php'>Mica</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='mica.php' class='view1'>View Details</a>
+                        <a href='mica-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696832640.jpg'>
-                    <h3><a href='lumps.php'>Lumps</a></h3>
+                    <h3><a href='lumps-manufacture-in-india.php'>Lumps</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='lumps.php' class='view1'>View Details</a>
+                        <a href='lumps-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696833155.jpg'>
-                    <h3><a href='silica-flour.php'>Silica Flour</a></h3>
+                    <h3><a href='silica-flour-manufacture-in-india.php'>Silica Flour</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='silica-flour.php' class='view1'>View Details</a>
+                        <a href='silica-flour-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>
@@ -234,40 +234,40 @@ require __DIR__ . '/include/header.php';
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696833440.jpg'>
-                    <h3><a href='talc-powder.php'>Talc Powder</a></h3>
+                    <h3><a href='talc-powder-manufacture-in-india.php'>Talc Powder</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='talc-powder.php' class='view1'>View Details</a>
+                        <a href='talc-powder-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696833783.jpg'>
-                    <h3><a href='soap-stone-powder.php'>Soap Stone Powder</a></h3>
+                    <h3><a href='soap-stone-powder-manufacture-in-india.php'>Soap Stone Powder</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='soap-stone-powder.php' class='view1'>View Details</a>
+                        <a href='soap-stone-powder-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696834115.jpg'>
-                    <h3><a href='dolomite-powder.php'>Dolomite Powder</a></h3>
+                    <h3><a href='dolomite-powder-manufacture-in-india.php'>Dolomite Powder</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='dolomite-powder.php' class='view1'>View Details</a>
+                        <a href='dolomite-powder-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
                     <img src='images/upload/pages/category/cover/1696841068.jpg'>
-                    <h3><a href='bentonite-powder.php'>Bentonite Powder</a></h3>
+                    <h3><a href='bentonite-powder-manufacture-in-india.php'>Bentonite Powder</a></h3>
                     <div class='enquiry1'>
                         <a href='contact-us.php' class='enquiry2'>Enquiry Now</a>
-                        <a href='bentonite-powder.php' class='view1'>View Details</a>
+                        <a href='bentonite-powder-manufacture-in-india.php' class='view1'>View Details</a>
                     </div>
                 </div>
             </div>

@@ -41,16 +41,16 @@ require __DIR__ . '/include/header.php';
                     <!--Blog Category Widget-->
                     <div class="sidebar-widget sidebar-blog-category">
                         <ul class="blog-cat">
-                            <li><a href='potassium-feldspar-powder.php'>Potassium Feldspar Powder</a></li>
-                            <li><a href='mica.php'>Mica</a></li>
-                            <li><a href='lumps.php'>Lumps</a></li>
-                            <li><a href='silica-flour.php'>Silica Flour</a></li>
-                            <li><a href='talc-powder.php'>Talc Powder</a></li>
-                            <li><a href='soap-stone-powder.php'>Soap Stone Powder</a></li>
-                            <li><a href='dolomite-powder.php'>Dolomite Powder</a></li>
-                            <li><a href='bentonite-powder.php'>Bentonite Powder</a></li>
-                            <li><a href='kaolin-powder.php'>Kaolin Powder</a></li>
-                            <li><a href='quartz-silica.php'>Quartz Silica</a></li>
+                            <li><a href='potassium-feldspar-powder-manufacture-in-india.php'>Potassium Feldspar Powder</a></li>
+                            <li><a href='mica-manufacture-in-india.php'>Mica</a></li>
+                            <li><a href='lumps-manufacture-in-india.php'>Lumps</a></li>
+                            <li><a href='silica-flour-manufacture-in-india.php'>Silica Flour</a></li>
+                            <li><a href='talc-powder-manufacture-in-india.php'>Talc Powder</a></li>
+                            <li><a href='soap-stone-powder-manufacture-in-india.php'>Soap Stone Powder</a></li>
+                            <li><a href='dolomite-powder-manufacture-in-india.php'>Dolomite Powder</a></li>
+                            <li><a href='bentonite-powder-manufacture-in-india.php'>Bentonite Powder</a></li>
+                            <li><a href='kaolin-powder-manufacture-in-india.php'>Kaolin Powder</a></li>
+                            <li><a href='quartz-silica-manufacture-in-india.php'>Quartz Silica</a></li>
                         </ul>
                     </div>
                     <div class="sidebar-title">
