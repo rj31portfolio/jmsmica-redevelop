@@ -100,5 +100,5 @@ try {
 } catch (Throwable $error) {
     // Do not expose SMTP credentials or server diagnostics to visitors.
     error_log('JMSMICA enquiry delivery failed (' . get_class($error) . '). Check server SMTP configuration and connectivity.');
-    respond(503, false, 'We could not send your enquiry right now. Please try again later or call +91-8595629100.');
+    respond(503, false, 'We could not send your enquiry right now. Please try again later or call +91-9910203483.');
 }

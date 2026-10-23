@@ -60,8 +60,8 @@ function googleTranslateElementInit() {
                             <ul class="links clearfix">
                                 <li><a href="#"><span class="icon flaticon-placeholder-2"></span>295, 1st Floor, B-1,
                                         Pocket 1, Sector 17, Rohini, Delhi, 110089</a></li>
-                                <li><a href="tel:+91-8595629100"><span class="icon fa fa-phone"></span>
-                                        +91-8595629100</a>
+                                <li><a href="tel:+91-9910203483"><span class="icon fa fa-phone"></span>
+                                        +91-9910203483</a>
                                 </li>
                             </ul>
                         </div>

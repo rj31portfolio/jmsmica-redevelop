@@ -14,8 +14,8 @@
     <div class="auto-container">
         <div class="footer-brand-row"><a href="index.php" aria-label="JMSMICA home"><img src="images/site-logo.png"
                     alt="JMSMICA Enterprises" width="165" height="64"></a>
-            <p>Industrial minerals. Quality at every step.</p><a class="footer-phone" href="tel:+918595629100"><span
-                    class="fa fa-phone" aria-hidden="true"></span> +91-8595629100</a>
+            <p>Industrial minerals. Quality at every step.</p><a class="footer-phone" href="tel:+919910203483"><span
+                    class="fa fa-phone" aria-hidden="true"></span> +91-9910203483</a>
         </div>
         <div class="widgets-section">
             <div class="row clearfix">
@@ -28,8 +28,8 @@
                             <ul class="list">
                                 <li><a href="#"><span class="icon flaticon-placeholder-2"></span>295, 1st Floor, B-1,
                                         Pocket 1, Sector 17, Rohini, Delhi, 110089</a></li>
-                                <li><a href='tel:+91-8595629100'><span
-                                            class='icon fa fa-phone'></span>+91-8595629100</a></li>
+                                <li><a href='tel:+91-9910203483'><span
+                                            class='icon fa fa-phone'></span>+91-9910203483</a></li>
                                 <li><a href='tel:+91-1202571011'><span
                                             class='icon fa fa-phone'></span>+91-1202571011</a></li>
                                 <li><a href="mailto:jmsmicabhilwara2010@gmail.com"><span
@@ -122,10 +122,10 @@
         class="icon fa fa-angle-double-up" aria-hidden="true"></span>
 </button>
 
-<a href="tel:08595629100" class="whatsappWidget3 phone-btn2" aria-label="Call JMSMICA">
+<a href="tel:09910203483" class="whatsappWidget3 phone-btn2" aria-label="Call JMSMICA">
     <img src="images/call-icon.png" class="img-responsive" alt="">
 </a>
-<a href="https://api.whatsapp.com/send?phone=918595629100&amp;text=" class="whatsappWidget phone-btn" target="_blank"
+<a href="https://api.whatsapp.com/send?phone=919910203483&amp;text=" class="whatsappWidget phone-btn" target="_blank"
     rel="noopener noreferrer" aria-label="Chat with JMSMICA on WhatsApp">
     <img src="images/whatsapp-icon.png" class="img-responsive" alt="">
 </a>

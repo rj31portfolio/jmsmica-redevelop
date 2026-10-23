@@ -22,7 +22,7 @@ require __DIR__ . '/include/header.php';
                 <div class="phone1">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <h6>Phone Number :</h6>
-                    <p><a href='tel:+91-8595629100'>+91-8595629100</a></p>
+                    <p><a href='tel:+91-9910203483'>+91-9910203483</a></p>
                     <p><a href='tel:+91-1202571011'>+91-1202571011</a></p>
                 </div>
             </div>

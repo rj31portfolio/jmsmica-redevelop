@@ -31,6 +31,7 @@ require __DIR__ . '/include/header.php';
                     <li>Mitsuwatech Co Ltd , Japan</li>
                     <li>Wudao international Co Ltd China</li>
                     <li>Startdust Israel</li>
+                    <li>SHIJIAZHUANG QINMING BLDG MTRLS CO LTD</li>
                 </ul>
             </div>
             <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
