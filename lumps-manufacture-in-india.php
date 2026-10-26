@@ -154,7 +154,8 @@ require __DIR__ . '/include/header.php';
                         <!--Blog Category Widget-->
                         <div class="sidebar-widget sidebar-blog-category">
                             <ul class="blog-cat">
-                                <li><a href='potassium-feldspar-powder-manufacture-in-india.php'>Potassium Feldspar Powder</a></li>
+                                <li><a href='potassium-feldspar-powder-manufacture-in-india.php'>Potassium Feldspar
+                                        Powder</a></li>
                                 <li><a href='mica-manufacture-in-india.php'>Mica</a></li>
                                 <li><a href='lumps-manufacture-in-india.php'>Lumps</a></li>
                                 <li><a href='silica-flour-manufacture-in-india.php'>Silica Flour</a></li>
@@ -173,9 +174,12 @@ require __DIR__ . '/include/header.php';
                         </div>
 
                         <form action="mail.php" method="POST" data-enquiry-form class="form2">
-                            <input type="text" name="name" placeholder="Enter Name" required="" maxlength="150" autocomplete="name">
-                            <input type="tel" name="phone" placeholder="Enter Number" required="" minlength="7" maxlength="25" pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
-                            <textarea name="message" placeholder="Your Message" rows="3" required="" maxlength="5000"></textarea>
+                            <input type="text" name="name" placeholder="Enter Name" required="" maxlength="150"
+                                autocomplete="name">
+                            <input type="tel" name="phone" placeholder="Enter Number" required="" minlength="7"
+                                maxlength="25" pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
+                            <textarea name="message" placeholder="Your Message" rows="3" required=""
+                                maxlength="5000"></textarea>
                             <button type="submit" name="btn_enq">Submit</button>
 
                             <?php require __DIR__ . '/include/enquiry-fields.php'; ?>

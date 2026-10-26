@@ -63,18 +63,22 @@ require __DIR__ . '/include/header.php';
                         </div>
                         <div class="col-lg-6">
                             <div class="form_box mb-3">
-                                <input class="form-control" type="text" name="name" placeholder="Enter Name" required="" maxlength="150" autocomplete="name">
+                                <input class="form-control" type="text" name="name" placeholder="Enter Name" required=""
+                                    maxlength="150" autocomplete="name">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form_box mb-3">
-                                <input class="form-control" type="tel" name="phone" placeholder="Enter Number" required="" minlength="7" maxlength="25" pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
+                                <input class="form-control" type="tel" name="phone" placeholder="Enter Number"
+                                    required="" minlength="7" maxlength="25" pattern="[+0-9\(\) .\-]{7,25}"
+                                    autocomplete="tel">
                             </div>
                         </div>
 
                         <div class="col-lg-12">
                             <div class="form_box">
-                                <textarea name="message" placeholder="Your Message" rows="3" required="" maxlength="5000"></textarea>
+                                <textarea name="message" placeholder="Your Message" rows="3" required=""
+                                    maxlength="5000"></textarea>
                             </div>
 
                             <div class="quote_btn text_center  btn11">

@@ -39,7 +39,9 @@ require __DIR__ . '/include/header.php';
 
             </div>
             <div class="col-lg-4 col-12 col-sm-5 col-md-4 about-visual">
-                <div class="about-photo"><img src="images/about.jpg" alt="The JMSMICA team working together"><div class="experience-badge"><strong>Since 2010</strong><span>Built on experience</span></div></div>
+                <div class="about-photo"><img src="images/about.jpg" alt="The JMSMICA team working together">
+                    <div class="experience-badge"><strong>Since 2010</strong><span>Built on experience</span></div>
+                </div>
             </div>
         </div>
     </div>

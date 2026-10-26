@@ -27,7 +27,7 @@ $galleryVideos = galleryMediaFiles('images/video', ['mp4', 'webm', 'ogv']);
       <li>Photo &amp; Video Gallery</li>
     </ul>
     <h1>Photo &amp; Video Gallery</h1>
-        <?php require __DIR__ . '/include/page-intro.php'; ?>
+    <?php require __DIR__ . '/include/page-intro.php'; ?>
   </div>
 </section>
 <section class="gallery1 photo-gallery" aria-labelledby="gallery-heading">
@@ -70,9 +70,9 @@ $galleryVideos = galleryMediaFiles('images/video', ['mp4', 'webm', 'ogv']);
       ?>
       <figure class="gallery-item">
         <a class="popup_image" href="<?= htmlspecialchars($imagePath, ENT_QUOTES, 'UTF-8') ?>"
-           aria-label="View <?= htmlspecialchars($caption, ENT_QUOTES, 'UTF-8') ?> in full size">
+          aria-label="View <?= htmlspecialchars($caption, ENT_QUOTES, 'UTF-8') ?> in full size">
           <img src="<?= htmlspecialchars($imagePath, ENT_QUOTES, 'UTF-8') ?>"
-               alt="<?= htmlspecialchars($caption, ENT_QUOTES, 'UTF-8') ?>" loading="lazy" decoding="async">
+            alt="<?= htmlspecialchars($caption, ENT_QUOTES, 'UTF-8') ?>" loading="lazy" decoding="async">
           <span class="gallery-zoom" aria-hidden="true"><span class="fa fa-search-plus"></span></span>
         </a>
       </figure>
@@ -95,10 +95,12 @@ $galleryVideos = galleryMediaFiles('images/video', ['mp4', 'webm', 'ogv']);
           $videoType = ['mp4' => 'video/mp4', 'webm' => 'video/webm', 'ogv' => 'video/ogg'][strtolower(pathinfo($videoPath, PATHINFO_EXTENSION))];
       ?>
       <figure class="video-gallery-item">
-        <video controls playsinline preload="metadata" aria-label="<?= htmlspecialchars($videoTitle, ENT_QUOTES, 'UTF-8') ?>">
+        <video controls playsinline preload="metadata"
+          aria-label="<?= htmlspecialchars($videoTitle, ENT_QUOTES, 'UTF-8') ?>">
           <source src="<?= htmlspecialchars($videoPath, ENT_QUOTES, 'UTF-8') ?>" type="<?= $videoType ?>">
           Your browser does not support embedded video.
-          <a href="<?= htmlspecialchars($videoPath, ENT_QUOTES, 'UTF-8') ?>">Download <?= htmlspecialchars($videoTitle, ENT_QUOTES, 'UTF-8') ?></a>.
+          <a href="<?= htmlspecialchars($videoPath, ENT_QUOTES, 'UTF-8') ?>">Download
+            <?= htmlspecialchars($videoTitle, ENT_QUOTES, 'UTF-8') ?></a>.
         </video>
       </figure>
       <?php endforeach; ?>

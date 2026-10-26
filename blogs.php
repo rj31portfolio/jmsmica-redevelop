@@ -20,7 +20,10 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <div class="section-heading"><span class="section-eyebrow">Mineral insights</span><h2 class="blog2">Knowledge for your industry</h2><p>Explore the properties, possibilities and applications of industrial minerals.</p></div>
+                <div class="section-heading"><span class="section-eyebrow">Mineral insights</span>
+                    <h2 class="blog2">Knowledge for your industry</h2>
+                    <p>Explore the properties, possibilities and applications of industrial minerals.</p>
+                </div>
             </div>
             <div class='col-lg-4 col-sm-6 col-md-4'>
                 <div class='news-block'>

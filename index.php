@@ -13,9 +13,10 @@ require __DIR__ . '/include/header.php';
         <li data-target='#myCarousel' data-slide-to='3'></li>
         <li data-target='#myCarousel' data-slide-to='4'></li>
     </ol>
-<div class='carousel-inner'>
-     <div class='item active'>
-            <img src='images/banner/bannerglobal.jpeg' class='img-fluid' alt='JMSMICA industrial minerals and global supply'>
+    <div class='carousel-inner'>
+        <div class='item active'>
+            <img src='images/banner/bannerglobal.jpeg' class='img-fluid'
+                alt='JMSMICA industrial minerals and global supply'>
         </div>
         <div class='item'>
             <img src='images/banner/banner-1.png' class='img-fluid' alt='Explore the JMSMICA industrial mineral range'>
@@ -43,10 +44,20 @@ require __DIR__ . '/include/header.php';
 <section class="company-highlights" aria-label="About our mineral supply">
     <div class="container">
         <div class="highlight-grid">
-            <div class="highlight-item"><span class="fa fa-building-o" aria-hidden="true"></span><div><strong>Established in 2010</strong><small>Experience in industrial minerals</small></div></div>
-            <div class="highlight-item"><span class="fa fa-diamond" aria-hidden="true"></span><div><strong>Quality focused</strong><small>Carefully selected mineral products</small></div></div>
-            <div class="highlight-item"><span class="fa fa-cubes" aria-hidden="true"></span><div><strong>Bulk mineral supply</strong><small>For your industrial requirements</small></div></div>
-            <a class="highlight-item highlight-contact" href="contact-us.php"><span class="fa fa-comments-o" aria-hidden="true"></span><div><strong>Let’s talk minerals</strong><small>Discuss your requirements <span aria-hidden="true">&rarr;</span></small></div></a>
+            <div class="highlight-item"><span class="fa fa-building-o" aria-hidden="true"></span>
+                <div><strong>Established in 2010</strong><small>Experience in industrial minerals</small></div>
+            </div>
+            <div class="highlight-item"><span class="fa fa-diamond" aria-hidden="true"></span>
+                <div><strong>Quality focused</strong><small>Carefully selected mineral products</small></div>
+            </div>
+            <div class="highlight-item"><span class="fa fa-cubes" aria-hidden="true"></span>
+                <div><strong>Bulk mineral supply</strong><small>For your industrial requirements</small></div>
+            </div>
+            <a class="highlight-item highlight-contact" href="contact-us.php"><span class="fa fa-comments-o"
+                    aria-hidden="true"></span>
+                <div><strong>Let’s talk minerals</strong><small>Discuss your requirements <span
+                            aria-hidden="true">&rarr;</span></small></div>
+            </a>
         </div>
     </div>
 </section>
@@ -73,7 +84,9 @@ require __DIR__ . '/include/header.php';
             </div>
 
             <div class="col-lg-4 col-12 col-sm-5 col-md-4 about-visual">
-                <div class="about-photo"><img src="images/about.jpg" alt="The JMSMICA team working together"><div class="experience-badge"><strong>Since 2010</strong><span>Built on experience</span></div></div>
+                <div class="about-photo"><img src="images/about.jpg" alt="The JMSMICA team working together">
+                    <div class="experience-badge"><strong>Since 2010</strong><span>Built on experience</span></div>
+                </div>
             </div>
         </div>
     </div>
@@ -141,7 +154,10 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <div class="section-heading"><span class="section-eyebrow">Our mineral range</span><h2>Featured Products</h2><p>Explore essential minerals for your industrial applications.</p></div>
+                <div class="section-heading"><span class="section-eyebrow">Our mineral range</span>
+                    <h2>Featured Products</h2>
+                    <p>Explore essential minerals for your industrial applications.</p>
+                </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
@@ -213,9 +229,11 @@ require __DIR__ . '/include/header.php';
                 <form action="mail.php" method="POST" data-enquiry-form>
                     <h2>Quick Enquiry</h2>
 
-                    <input type="text" placeholder="Enter Name" name="name" required maxlength="150" autocomplete="name">
+                    <input type="text" placeholder="Enter Name" name="name" required maxlength="150"
+                        autocomplete="name">
 
-                    <input type="tel" placeholder="Enter Number" name="phone" required minlength="7" maxlength="25" pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
+                    <input type="tel" placeholder="Enter Number" name="phone" required minlength="7" maxlength="25"
+                        pattern="[+0-9\(\) .\-]{7,25}" autocomplete="tel">
 
                     <textarea placeholder="Your Message" rows="3" name="message" required maxlength="5000"></textarea>
                     <button>Submit</button>
@@ -230,7 +248,10 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <div class="section-heading"><span class="section-eyebrow">Explore more</span><h2>Most Popular Products</h2><p>Find the right mineral for your next requirement.</p></div>
+                <div class="section-heading"><span class="section-eyebrow">Explore more</span>
+                    <h2>Most Popular Products</h2>
+                    <p>Find the right mineral for your next requirement.</p>
+                </div>
             </div>
             <div class='col-lg-3 col-12 col-sm-6 col-md-3'>
                 <div class='product-item'>
@@ -358,7 +379,10 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <div class="section-heading"><span class="section-eyebrow">Mineral insights</span><h2 class='blog2'>Our Latest Blogs</h2><p>Discover the properties, uses, and possibilities of industrial minerals.</p></div>
+                <div class="section-heading"><span class="section-eyebrow">Mineral insights</span>
+                    <h2 class='blog2'>Our Latest Blogs</h2>
+                    <p>Discover the properties, uses, and possibilities of industrial minerals.</p>
+                </div>
             </div>
             <div class='col-lg-4 col-sm-6 col-md-4'>
                 <div class='news-block'>
@@ -382,7 +406,7 @@ require __DIR__ . '/include/header.php';
                                 of Potassium and Sodium Feldspar Powder</a></h2>
                         <div class='text'>Potassium Feldspar Powder is a valuable industrial mineral with numerous
                             applications. In this blog post, we delve into the diverse uses of this mineral and how
-              
+
                             JMSMICA Enterprises ensures top-notch quality.</div>
                         <a class='read-more' href='unlocking-the-potential-of-potassium-feldspar-powder.php'>Read More
                             <span class='icon flaticon-arrow-pointing-to-right'></span></a>
