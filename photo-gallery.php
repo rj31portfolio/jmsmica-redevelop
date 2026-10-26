@@ -27,6 +27,7 @@ $galleryVideos = galleryMediaFiles('images/video', ['mp4', 'webm', 'ogv']);
       <li>Photo &amp; Video Gallery</li>
     </ul>
     <h1>Photo &amp; Video Gallery</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
   </div>
 </section>
 <section class="gallery1 photo-gallery" aria-labelledby="gallery-heading">

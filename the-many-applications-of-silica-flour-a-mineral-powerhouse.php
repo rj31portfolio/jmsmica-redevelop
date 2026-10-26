@@ -13,6 +13,7 @@ require __DIR__ . '/include/header.php';
             <li>The Many Applications of Silica Flour: A Mineral Powerhouse</li>
         </ul>
         <h1>The Many Applications of Silica Flour: A Mineral Powerhouse</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 <section>

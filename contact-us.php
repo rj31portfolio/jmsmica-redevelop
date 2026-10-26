@@ -12,6 +12,7 @@ require __DIR__ . '/include/header.php';
             <li>Contact Us</li>
         </ul>
         <h1>Contact Us</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 
@@ -55,7 +56,9 @@ require __DIR__ . '/include/header.php';
                 <form action="mail.php" method="POST" data-enquiry-form id="dreamit-form">
                     <div class="row">
                         <div class="section-title1 ">
-                            <h4>CONTACT US</h4>
+                            <span class="section-eyebrow">Talk to our team</span>
+                            <h4>Tell us what you need</h4>
+                            <p>Share your mineral, quantity and application requirements with us.</p>
 
                         </div>
                         <div class="col-lg-6">
@@ -92,10 +95,10 @@ require __DIR__ . '/include/header.php';
     </div>
 </section>
 
-<section>
+<section class="contact-map" aria-label="Our office location">
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27995.318831477845!2d77.23488378424425!3d28.7071455809095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdd620dac251%3A0x367da59a3701b399!2sJMSMICA!5e0!3m2!1sen!2sin!4v1695981349363!5m2!1sen!2sin"
-        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        title="JMSMICA office location" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 

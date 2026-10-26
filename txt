@@ -1,17 +1,15 @@
 
  *Daily Website Development Report*
-*Date:* 22/10/2026
+*Date:* 23/10/2026
 *Name:* Raju Ali
-*Project Name:* jmsmica
+*Project Name:* wild roar safari and mr sofa 
 *Today’s Work Completed:*-
-work on jmsmica
-add new images and videos update 
-form make working 
-change page urls 
-add google traslator with international language
-and website Live
-Pressbrakes seo few changes
-*Website Live Link* https://www.jmsmica.com/
+make backend detatil page category 
+seo According 
+changes in all Page 
+wild roar safari change and change urls clean url
+*Website Live Link* https://mrsofa.in/
+ https://wildroarsafari.com/
 *Issues / Challenges:*- Na
 *Feedback Call Update:*-0
 

@@ -9,6 +9,13 @@
         }
     });
 
+    document.querySelectorAll('.blog-cat a').forEach(function (link) {
+        if (link.getAttribute('href') === currentPage) {
+            link.setAttribute('aria-current', 'page');
+            link.parentElement.classList.add('active');
+        }
+    });
+
     // Keep submenu state consistent for both touch and keyboard users.
     document.querySelectorAll('.main-menu .dropdown-btn').forEach(function (control, index) {
         var submenu = control.previousElementSibling;

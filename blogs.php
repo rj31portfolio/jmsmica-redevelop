@@ -12,6 +12,7 @@ require __DIR__ . '/include/header.php';
             <li>Our Latest Blogs</li>
         </ul>
         <h1>Our Latest Blogs</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 
@@ -19,7 +20,7 @@ require __DIR__ . '/include/header.php';
     <div class='container'>
         <div class='row'>
             <div class='col-lg-12'>
-                <h2 class='blog2'>Our Latest Blogs</h2>
+                <div class="section-heading"><span class="section-eyebrow">Mineral insights</span><h2 class="blog2">Knowledge for your industry</h2><p>Explore the properties, possibilities and applications of industrial minerals.</p></div>
             </div>
             <div class='col-lg-4 col-sm-6 col-md-4'>
                 <div class='news-block'>

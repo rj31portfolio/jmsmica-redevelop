@@ -24,7 +24,7 @@ if ($homePageOnly && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') !== realpath(__
     <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/design-refresh.css?v=4">
+    <link rel="stylesheet" href="css/design-refresh.css?v=5">
     <link rel="shortcut icon" href="index.php" type="image/x-icon">
     <link rel="icon" href="index.php" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

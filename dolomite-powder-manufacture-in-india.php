@@ -11,6 +11,7 @@ require __DIR__ . '/include/header.php';
             <li>Dolomite Powder</li>
         </ul>
         <h1>Dolomite Powder</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 <section>

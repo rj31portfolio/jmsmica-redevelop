@@ -153,7 +153,7 @@
 <script src="js/knob.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/script.js"></script>
-<script src="js/design-refresh.js?v=1"></script>
+<script src="js/design-refresh.js?v=2"></script>
 <script src="js/sweetalert2.all.min.js"></script>
 <script src="js/enquiry.js?v=1"></script>
 </body>

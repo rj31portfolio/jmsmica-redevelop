@@ -12,7 +12,7 @@ $smtp = [
     'password' => getenv('SMTP_PASSWORD') ?: 'wcce owbq adxo njcn',
     'from_email' => getenv('SMTP_FROM_EMAIL') ?: 'rj9work@gmail.com',
     'from_name' => 'JMSMICA Website',
-    'to_email' => getenv('SMTP_TO_EMAIL') ?: 'rj9work@gmail.com',
+    'to_email' => getenv('SMTP_TO_EMAIL') ?: 'jmsmicabhilwara2010@gmail.com',
 ];
 
 if (is_file(__DIR__ . '/config.local.php')) {

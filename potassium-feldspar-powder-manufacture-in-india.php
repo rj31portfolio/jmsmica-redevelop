@@ -12,6 +12,7 @@ require __DIR__ . '/include/header.php';
             <li>Potassium Feldspar Powder</li>
         </ul>
         <h1>Potassium Feldspar Powder</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 <section>

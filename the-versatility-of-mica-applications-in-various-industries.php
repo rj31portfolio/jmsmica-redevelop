@@ -12,6 +12,7 @@ require __DIR__ . '/include/header.php';
             <li>The Versatility of Mica: Applications in Various Industries</li>
         </ul>
         <h1>The Versatility of Mica: Applications in Various Industries</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 

@@ -12,6 +12,7 @@ require __DIR__ . '/include/header.php';
             <li>Major Clients</li>
         </ul>
         <h1>Major Clients</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 
@@ -19,7 +20,8 @@ require __DIR__ . '/include/header.php';
     <div class="container">
         <div class="row">
             <div class="content-side col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                <h2 class="client3"> Major Clients </h2>
+                <span class="section-eyebrow">Our business relationships</span>
+                <h2 class="client3">Serving clients across borders</h2>
                 <p>Our company is proud to associate with below listed clients:&nbsp;</p>
 
                 <ul class='client2'>

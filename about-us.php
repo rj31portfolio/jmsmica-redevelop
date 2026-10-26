@@ -13,6 +13,7 @@ require __DIR__ . '/include/header.php';
             <li>About Us</li>
         </ul>
         <h1>About Us</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 
@@ -37,8 +38,8 @@ require __DIR__ . '/include/header.php';
                     heavily focused on manufacturing solely superior in quality products. </p>
 
             </div>
-            <div class="col-lg-4 col-12 col-sm-5 col-md-4">
-                <img src="images/about.jpg">
+            <div class="col-lg-4 col-12 col-sm-5 col-md-4 about-visual">
+                <div class="about-photo"><img src="images/about.jpg" alt="The JMSMICA team working together"><div class="experience-badge"><strong>Since 2010</strong><span>Built on experience</span></div></div>
             </div>
         </div>
     </div>

@@ -11,22 +11,23 @@ require __DIR__ . '/include/header.php';
         <li data-target='#myCarousel' data-slide-to='1'></li>
         <li data-target='#myCarousel' data-slide-to='2'></li>
         <li data-target='#myCarousel' data-slide-to='3'></li>
+        <li data-target='#myCarousel' data-slide-to='4'></li>
     </ol>
 <div class='carousel-inner'>
      <div class='item active'>
-            <img src='images/banner/bannerglobal.jpeg' class='img-fluid'>
+            <img src='images/banner/bannerglobal.jpeg' class='img-fluid' alt='JMSMICA industrial minerals and global supply'>
         </div>
         <div class='item'>
-            <img src='images/banner/banner-1.png' class='img-fluid'>
+            <img src='images/banner/banner-1.png' class='img-fluid' alt='Explore the JMSMICA industrial mineral range'>
         </div>
         <div class='item'>
-            <img src='images/banner/banner-2.png' class='img-fluid'>
+            <img src='images/banner/banner-2.png' class='img-fluid' alt='Industrial mineral solutions from JMSMICA'>
         </div>
         <div class='item'>
-            <img src='images/banner/banner-3.png' class='img-fluid'>
+            <img src='images/banner/banner-3.png' class='img-fluid' alt='JMSMICA mineral products for industry'>
         </div>
         <div class='item'>
-            <img src='images/banner/banner-4.png' class='img-fluid'>
+            <img src='images/banner/banner-4.png' class='img-fluid' alt='Discover JMSMICA Enterprises'>
         </div>
     </div>
 

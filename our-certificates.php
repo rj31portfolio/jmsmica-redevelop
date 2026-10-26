@@ -12,13 +12,14 @@ require __DIR__ . '/include/header.php';
                     <li>Our Certificates</li>
                 </ul>
                 <h1>Our Certificates</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
             </div>
         </section>
         <section class='gallery1'>
             <div class='container'>
                 <div class='row zoom-gallery'>
                     <div class='col-lg-12'>
-                        <h2 class='blog2'>Our Certificates</h2>
+                        <div class="section-heading"><span class="section-eyebrow">Our credentials</span><h2 class="blog2">A commitment to quality</h2><p>View our certificates. Select a document to take a closer look.</p></div>
                     </div>
                     <div class='col-lg-3 col-12 col-sm-4 col-md-3 gallery2'>
                         <div class='gallery-item'>

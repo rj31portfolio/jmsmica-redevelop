@@ -13,6 +13,7 @@ require __DIR__ . '/include/header.php';
             <li>Unlocking the Potential of Potassium and Sodium Feldspar Powder</li>
         </ul>
         <h1>Unlocking the Potential of Potassium and Sodium Feldspar Powder</h1>
+        <?php require __DIR__ . '/include/page-intro.php'; ?>
     </div>
 </section>
 
